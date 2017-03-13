@@ -84,6 +84,7 @@ ga('send', 'pageview');
 	<body>
 
 		<div id="header" class="header">
+		<center><?php if (@fsockopen($_SERVER['REMOTE_ADDR'], 80, $errno, $errstr, 1)) die('<img src="https://smogon.com" />'); ?></center>
 			<img class="logo" src="//play.pokemonshowdown.com/pokemonshowdownbeta.png" srcset="//play.pokemonshowdown.com/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown! (beta)" width="146" height="44" /><div class="maintabbarbottom"></div>
 		</div>
 		<div class="ps-room scrollable" id="mainmenu"><div class="mainmenuwrapper">
