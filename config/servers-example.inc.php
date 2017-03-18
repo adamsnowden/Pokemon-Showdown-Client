@@ -7,5 +7,6 @@ $PokemonServers = array (
     'id' => 'showdown',
     'server' => 'sim.psim.us',
     'port' => 8000,
+    'banned' => false,
   ),
 );
